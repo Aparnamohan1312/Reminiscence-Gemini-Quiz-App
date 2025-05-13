@@ -1,0 +1,12 @@
+# =====================
+# Quiz Submission Mutation
+# =====================
+
+mutation SubmitQuiz($input: QuizInput!) {
+  submitQuiz(input: $input) {
+    sentiment
+    imageUrl
+    audioUrl
+    caption
+  }
+}

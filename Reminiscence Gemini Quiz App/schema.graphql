@@ -1,0 +1,27 @@
+extend type Query {
+  quizQuestions: [Question!]!
+  userResults(userId: String!): [QuizResultRecord!]!
+  sentimentMediaMap: [SentimentMapping!]!
+}
+
+type Question {
+  id: String!
+  text: String!
+  options: [String!]!
+  category: String
+}
+
+type QuizResultRecord {
+  id: ID!
+  createdAt: String!
+  sentiment: String!
+  imageUrl: String!
+  audioUrl: String!
+  caption: String
+}
+
+type SentimentMapping {
+  sentiment: String!
+  imageUrl: String!
+  audioUrl: String!
+}

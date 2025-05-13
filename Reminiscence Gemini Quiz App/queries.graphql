@@ -1,0 +1,43 @@
+# =========================
+# Basic Health Check Query
+# =========================
+query CheckHealth {
+  _health
+}
+
+# =========================
+# Fetch Quiz Metadata (Questions)
+# =========================
+query GetQuizQuestions {
+  quizQuestions {
+    id
+    text
+    options
+    category
+  }
+}
+
+# =========================
+# Fetch a User’s Previous Results (Optional)
+# =========================
+query GetUserQuizResults($userId: String!) {
+  userResults(userId: $userId) {
+    id
+    createdAt
+    sentiment
+    imageUrl
+    audioUrl
+    caption
+  }
+}
+
+# =========================
+# Fetch Sentiment → Media Mappings (Debug/Admin)
+# =========================
+query GetSentimentMappings {
+  sentimentMediaMap {
+    sentiment
+    imageUrl
+    audioUrl
+  }
+}

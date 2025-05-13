@@ -1,0 +1,43 @@
+{
+    "positive": {
+      "imageUrl": "https://your-storage-url.com/images/uplifting_memory.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/cheerful_tune.mp3"
+    },
+    "neutral": {
+      "imageUrl": "https://your-storage-url.com/images/calm_scene.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/peaceful_soundscape.mp3"
+    },
+    "negative": {
+      "imageUrl": "https://your-storage-url.com/images/pensive_moment.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/melancholy_melody.mp3"
+    },
+    "reflective": {
+      "imageUrl": "https://your-storage-url.com/images/thoughtful_vista.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/reflective_tones.mp3"
+    },
+    "joyful": {
+      "imageUrl": "https://your-storage-url.com/images/joyful_celebration.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/energetic_beat.mp3"
+    },
+    "nostalgic": {
+      "imageUrl": "https://your-storage-url.com/images/vintage_memory.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/nostalgic_piano.mp3"
+    },
+    "excited": {
+      "imageUrl": "https://your-storage-url.com/images/vibrant_adventure.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/upbeat_track.mp3"
+    },
+    "calm": {
+      "imageUrl": "https://your-storage-url.com/images/serene_landscape.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/calming_ambience.mp3"
+    },
+     "hopeful": {
+      "imageUrl": "https://your-storage-url.com/images/bright_future.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/inspiring_chords.mp3"
+    },
+     "peaceful": {
+      "imageUrl": "https://your-storage-url.com/images/tranquil_setting.jpg",
+      "audioUrl": "https://your-storage-url.com/audio/gentle_waves.mp3"
+    }
+    
+  }
